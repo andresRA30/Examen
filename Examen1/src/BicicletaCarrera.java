@@ -1,11 +1,12 @@
 
 public class BicicletaCarrera extends Bicicleta{
-	//inyeccion de dependencia
+	//composicion
 	Marcos marco;
 	Horquillas horquilla;
 	Transmisiones transmisiones;
 	
 	public BicicletaCarrera(Marcos marco, Horquillas horquilla, Transmisiones transmisiones) {
+		//inyeccion de dependencia
 		super();
 		this.marco = marco;
 		this.horquilla = horquilla;

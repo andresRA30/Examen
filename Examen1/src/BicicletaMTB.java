@@ -1,12 +1,13 @@
 
 public class BicicletaMTB extends Bicicleta{
-//inyeccion de dependencia
+//composicion
 	Marcos marco;
 Horquillas horquilla;
 Transmisiones transmisiones;
 
 	public BicicletaMTB(Marcos marco, Horquillas horquilla, Transmisiones transmisiones) {
 	super();
+	//inyeccion de dependencia
 	this.marco = marco;
 	this.horquilla = horquilla;
 	this.transmisiones = transmisiones;
